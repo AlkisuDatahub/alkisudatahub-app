@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.AlkisuDataHub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/navy</item>
+        <item name="colorPrimaryVariant">@color/navy</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorSecondaryVariant">@color/gold</item>
+        <item name="colorOnSecondary">@color/navy</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
