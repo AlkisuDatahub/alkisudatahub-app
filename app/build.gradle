@@ -64,4 +64,5 @@ dependencies {
     // Push notifications (OneSignal)
     implementation 'com.onesignal:OneSignal:[5.6.1, 5.99.99]'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+    implementation 'androidx.biometric:biometric:1.1.0'
 }

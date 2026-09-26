@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AlkisuDataHub</string>
     <string name="site_url">https://alkisudatahub.com.ng</string>
+    <string name="verifying_identity">Verifying your fingerprint…</string>
 </resources>

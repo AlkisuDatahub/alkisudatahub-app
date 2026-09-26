@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy">
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash_logo"
+        android:alpha="0" />
+
+    <TextView
+        android:id="@+id/splashStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:alpha="0"
+        android:text="@string/verifying_identity"
+        android:textColor="@color/gold"
+        android:textSize="14sp" />
+
+</RelativeLayout>
