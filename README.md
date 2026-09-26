@@ -6,6 +6,13 @@ issue and gives full control over permissions, downloads, and future notificatio
 support.
 
 ## What's included
+- **Your real logo** is now the app icon (adaptive icon + legacy icon, all densities)
+  and appears on the splash screen — generated from the logo you sent.
+- **Splash screen with fingerprint lock**: on open, your logo animates in
+  (fades and slides up), then the phone's real fingerprint prompt appears.
+  On success, the app continues into the site. If a phone has no fingerprint
+  hardware or none enrolled, it skips the lock and continues straight in —
+  it never traps someone who can't use fingerprint.
 - **Downloads fixed**: PDF slips/receipts now go through Android's DownloadManager
   with a proper notification, instead of failing silently in the WebView.
 - **File uploads work**: `<input type="file">` fields (BVN modification documents,
@@ -18,14 +25,9 @@ support.
 - App theme uses your site palette (navy `#0A192F` / gold `#F3C93E`).
 
 ## Before you build
-1. **Replace the app icon.** I used a placeholder gold "A" mark since I don't have
-   your actual logo file locally. Put your real logo into
-   `app/src/main/res/mipmap-*` (or regenerate with Android Studio's Image Asset
-   tool: right-click `res` → New → Image Asset → use
-   `assets/alkisu_logo_compressed.png`).
-2. Open the project folder in **Android Studio** (Giraffe or newer). It will sync
-   Gradle automatically.
-3. If you want a different package/application ID than
+1. Open the project folder in **Android Studio** (Giraffe or newer), or use
+   the Codespaces / GitHub Actions route below — Gradle syncs automatically.
+2. If you want a different package/application ID than
    `com.alkisudatahub.app`, change it in `app/build.gradle` (`applicationId`) and
    `AndroidManifest.xml`.
 
